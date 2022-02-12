@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+
+
+
+
+{% block title %}
+Juanpa Zoo - Register
+{% endblock %}
+
+{% block body %}
+{% endblock %} 
+
+
+{% block content %}    
+
+<h1>Welcome to Juanpa Zoo, where we take care of your buddies</h1>
+<h2>Please fullfill the information to make an appointment with us</h2>
+
+
+<form action="/new_contact" method="POST" style="text-align:center"  novalidate>
+    <label for="FullName"> Name and last name </label>
+    <input type="" name="FullName" ><br/>
+
+    <label for="Email"> Contact email</label>
+    <input type="" name="Email" align="left"><br/>
+
+
+    <label for="DogName"> Dog's name </label>
+    <input type="" name="DogName" ><br/>
+
+    <label for="DogType"> Dog's type </label>
+    <input type="" name="DogType" ><br/>
+
+    <label for="DogIssue"> Dog issue</label>
+    <input type="" name="DogIssue" ><br/>
+
+    <button type="Submit">
+        Save
+    </button>
+</form> 
+
+
+{% endblock %} 
+
+

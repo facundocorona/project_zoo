@@ -1,0 +1,70 @@
+body {background-image: url('doggie.png');}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+
+h1, h2 {
+    margin: 2em 2 .5em;
+    line-height: 1.25;
+    font: 2em "Copperplate";
+    margin-top: 2cm;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+h1 {
+    font-size: 4em;
+    -webkit-text-stroke: 2px black; /* width and color */
+    font-family: Copperplate; color: white;
+
+
+} 
+
+h2 {
+    font-size: 2.5em;
+    -webkit-text-stroke: 2px black; /* width and color */
+    font-family: Copperplate; color: #0000ff;
+
+
+}
+              
+
+form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  label, input {
+  /* In order to define widths */
+  display: inline-block;
+}
+
+label {
+    width: 20%;
+    /* Positions the label text beside the input */
+    text-align: left;
+  }
+  
+  label+input {
+    width: 20%;
+    /* Large margin-right to force the next element to the new-line
+             and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+  }
+  
+  
+  /* Only the submit button is matched by this selector,
+         but to be sure you could use an id or class for that button */
+  
+  input+input {
+    float: right;
+  }
+  
